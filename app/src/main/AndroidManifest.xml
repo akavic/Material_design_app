@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SymetricActivity"
+            android:label="@string/title_activity_symetric"
+            android:theme="@style/MyAppTheme">
+        </activity>
     </application>
 
 </manifest>
