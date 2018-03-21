@@ -12,9 +12,14 @@ import android.view.Menu;
 import android.widget.ImageButton;
 
 // concerned with display play button and linking to next page
+// slide animation link  https://www.youtube.com/watch?v=0s6x3Sn4eYo
 public class MainActivity extends AppCompatActivity {
 
+    // in the model view archictecture this is the view class
+
     private ImageButton mButton;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         // starting the second activity
         Intent intent = new Intent(this, SymetricActivity.class);
         startActivity(intent);
+       //method to use transition must pass in transition xml
+
     }
 
     void setToolbar(){

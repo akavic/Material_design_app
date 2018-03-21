@@ -310,3 +310,6 @@ public class MainActivity extends AppCompatActivity implements TopSectionFragmen
 }
 
 
+//slider info
+
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left); //method to use transition must pass in transition xml maually check styles .xm toi see how it's been applied to whole phone
