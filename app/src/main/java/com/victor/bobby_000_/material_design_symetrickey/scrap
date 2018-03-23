@@ -309,6 +309,7 @@ public class MainActivity extends AppCompatActivity implements TopSectionFragmen
     }
 }
 
+//todo need to write class that encyrpyts and dectypt then fininsh up xml
 
 //slider info
 
